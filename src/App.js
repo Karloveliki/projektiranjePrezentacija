@@ -5,28 +5,31 @@ import BulletList from './components/BulletList';
 import Slide from './components/Slide';
 import ProblemiSaNatom from './slides/ProblemiSaNatom';
 import StariNacin from './slides/StariNacin';
+import UobicajeniNacin from './slides/UobicajeniNacin';
+import CloudflareWay from './slides/CloudflareWay';
+import PostupakCloudflare from './slides/PostupakCloudflare';
+import NotFound from './slides/NotFound';
+import Naslovnica from './slides/Naslovnica';
+import Layout from './components/Layout';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn projektiranje
-        </a>
-        <StariNacin></StariNacin>
-        <ProblemiSaNatom></ProblemiSaNatom>
-        
-      </header>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Layout />}>
+            <Route index element={<Naslovnica />} />
+            <Route path="starinacin" element={<StariNacin />} />
+            <Route path="uobicajeninacin" element={<UobicajeniNacin />} />
+            <Route path="problemisnatom" element={<ProblemiSaNatom />} />
+            <Route path="cloudflareway" element={<CloudflareWay/>} />
+            <Route path="*" element={<NotFound/>} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
 
 export default App;
+
