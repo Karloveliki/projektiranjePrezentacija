@@ -1,6 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-
+import Bullet from './components/Bullet';
+import BulletList from './components/BulletList';
+import Slide from './components/Slide';
+import ProblemiSaNatom from './slides/ProblemiSaNatom';
+import StariNacin from './slides/StariNacin';
 function App() {
   return (
     <div className="App">
@@ -15,8 +19,11 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn projektiranje
         </a>
+        <StariNacin></StariNacin>
+        <ProblemiSaNatom></ProblemiSaNatom>
+        
       </header>
     </div>
   );
