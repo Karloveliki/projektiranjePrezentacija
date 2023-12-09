@@ -1,8 +1,12 @@
 import { Outlet, Link } from "react-router-dom";
-
-const Layout = () => {
+import PresentationControl from "./PresentationControl";
+const Layout = ({presentation}) => {
+    console.log("u layoutu:",presentation)
   return (
     <>
+    <h1>ja sam iznad</h1>
+      <Outlet />
+      <PresentationControl presentation={presentation}></PresentationControl>
       <nav>
         <ul>
           <li>
@@ -11,7 +15,6 @@ const Layout = () => {
           </li>
         </ul>
       </nav>
-      <Outlet />
     </>
   )
 };
