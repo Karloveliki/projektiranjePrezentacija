@@ -12,7 +12,11 @@ import NotFound from './slides/NotFound';
 import Naslovnica from './slides/Naslovnica';
 import Layout from './components/Layout';
 import Postupak from './slides/PostupakCloudflare'
+import CloudflareTunnel from './slides/CloudflareTunnel';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import ThreeConnections from './slides/ThreeConnections';
+import TCPveze from './slides/Tcpveze';
+import DodavanjeWebsitea from './slides/DodavanjeWebsitea';
 
 function presentation() {
   const slides = [
@@ -20,7 +24,11 @@ function presentation() {
     {path:"uobicajeninacin", slide: <UobicajeniNacin/>},
     {path:"problemisnatom", slide: <ProblemiSaNatom/>},
     {path:"cloudflareway", slide: <CloudflareWay/>},
-    {path:"postupakcloudflare", slide: <PostupakCloudflare/>}
+    {path:"cloudflaretunnel", slide: <CloudflareTunnel/>},
+    {path:"threeconnections1", slide: <TCPveze/>},
+    {path:"threeconnections2", slide: <ThreeConnections/>},
+    {path:"postupakcloudflare", slide: <PostupakCloudflare/>},
+    {path:"dodavanjewebsitea", slide: <DodavanjeWebsitea/>}
   ];
   const p = {
     naslovnica: <Naslovnica/>,

@@ -4,7 +4,7 @@ import BulletList from '../components/BulletList';
 function PostupakCloudflare(props){
 
     return(
-        <Slide title="Postupak ko Cloudflare-a">
+        <Slide title="Postupak kod Cloudflare-a">
             <BulletList>
                 <Bullet> Dodati uslugaizdoma.online kao Website na cloudflareu </Bullet>
                 <Bullet> DNS za domenu prepustiti Cloudflare-u (u godaddy control panelu)</Bullet>
