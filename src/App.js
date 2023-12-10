@@ -44,7 +44,7 @@ function App() {
     return <Route path={s.path} element={s.slide} key={s.path}/>
   })
   return (
-    <div className="App">
+    <div className="w3-container w3-light-blue">
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Layout presentation={p}/>}>

@@ -38,16 +38,30 @@ function PresentationControl(props){
     if(slideIndex<slides.length-1){
         iduci="/"+slides[slideIndex+1].path
     }
-    return(
-        <div>
-            <ul>          
-                {prethodnik ? <li><Link to={prethodnik}>nazad</Link></li> : null}
-                {iduci ? <li><Link to={iduci}>naprijed</Link></li> : null}
-                <li><Link to="/">početak</Link></li> 
-                <li><Link to={krajPath}>kraj</Link></li> 
-            </ul>
 
-        </div>
+    return(
+        <div class="w3-panel w3-bar">
+            <div class="w3-button">
+                <Link to="/" class="w3-round w3-cyan w3-padding-small">početak</Link>
+            </div> 
+            <div class="w3-button">
+                {prethodnik ? 
+                    <Link to={prethodnik} class="w3-round w3-cyan w3-padding-small">nazad</Link> 
+                    :
+                    <Link to="#" class="w3-round w3-cyan w3-padding-small w3-disabled" >nazad</Link>
+                }
+            </div> 
+            <div class="w3-button  w3-right ">
+                <Link to={krajPath} class="w3-round w3-cyan w3-padding-small">kraj</Link> 
+            </div> 
+            <div class=" w3-button w3-right">
+                {iduci ? 
+                    <Link to={iduci} class="w3-round w3-cyan w3-padding-small" >naprijed</Link> 
+                    : 
+                    <Link to="#" class="w3-round w3-cyan w3-padding-small w3-disabled" >naprijed</Link>
+                }
+            </div> 
+        </div>          
     )
 }
 export default PresentationControl;

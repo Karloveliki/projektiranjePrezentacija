@@ -1,3 +1,13 @@
+# TODO
+* css za slideove sa bulletima
+* css za slideove sa slikama (ako  treba)
+* poseban slide layout za naslovnicu
+* posaben slide za karaj?
+* navigacija sa tipkama?
+* rekonfigurirati tunnel na cloudflareu da ida na 3000 i da poddomena ne bude radiostanice nego prezentacija
+* dovrsiti sve slajdove
+* pregledati sve
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

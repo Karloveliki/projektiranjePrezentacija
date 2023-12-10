@@ -4,8 +4,9 @@ const Layout = ({presentation}) => {
     console.log("u layoutu:",presentation)
   return (
     <>
-    
-      <Outlet />
+      
+        <Outlet />
+     
       <PresentationControl presentation={presentation}></PresentationControl>
       
     </>
