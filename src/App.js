@@ -18,6 +18,10 @@ import ThreeConnections from './slides/ThreeConnections';
 import TCPveze from './slides/Tcpveze';
 import DodavanjeWebsitea from './slides/DodavanjeWebsitea';
 import Nameserveri from './slides/Namserveri';
+import KreiranjeTunela from './slides/KreiranjeTunela';
+import InstaliranjeKonektora from './slides/InstaliranjeKonektora';
+import ProvjeraStatusaTunela from './slides/ProvjeraStatusaTunela';
+import ZadnjiSlajd from './slides/ZadnjiSlajd';
 
 function presentation() {
   const slides = [
@@ -30,7 +34,12 @@ function presentation() {
     {path:"threeconnections2", slide: <ThreeConnections/>},
     {path:"postupakcloudflare", slide: <PostupakCloudflare/>},
     {path:"dodavanjewebsitea", slide: <DodavanjeWebsitea/>},
-    {path:"nameserveri", slide: <Nameserveri/>}
+    {path:"nameserveri", slide: <Nameserveri/>},
+    {path:"kreiranjetunela", slide: <KreiranjeTunela/>},
+    {path:"instaliranjekonektora", slide: <InstaliranjeKonektora/>},
+    {path:"provjerastatusatunela", slide: <ProvjeraStatusaTunela/>},
+    {path:"zadnjislajd", slide: <ZadnjiSlajd/>}
+
     
   ];
   const p = {

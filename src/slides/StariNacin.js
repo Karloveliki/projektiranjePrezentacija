@@ -5,7 +5,7 @@ import Dijagram from "../components/Dijagram";
 function StariNacin(props){
     return(
         <Slide title="Stari način">
-            <Dijagram src={Staripng}></Dijagram>
+            <Dijagram src={Staripng} height="300px"></Dijagram>
         </Slide>
     )
 }
