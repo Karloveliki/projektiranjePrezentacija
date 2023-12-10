@@ -1,10 +1,10 @@
-import Slide from "../components/Slide";
+import TitleSlide from "../components/TitleSlide";
 
 function Naslovnica(props){
     return(
-        <Slide title="Pružanje web servisa iz doma">
-                Karlo Perković
-        </Slide>
+        <TitleSlide title="Pružanje web servisa iz doma">
+                <h2>Karlo Perković</h2>
+        </TitleSlide>
     )
 }
 export default Naslovnica;
