@@ -4,7 +4,7 @@ import Dijagram from "../components/Dijagram";
 
 function DodavanjeWebsitea(props){
     return(
-        <Slide title="Dodavanje web sitea">
+        <Slide title="Dodavanje web-sitea">
             <Dijagram src={slika}></Dijagram>
         </Slide>
     )

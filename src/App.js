@@ -17,6 +17,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ThreeConnections from './slides/ThreeConnections';
 import TCPveze from './slides/Tcpveze';
 import DodavanjeWebsitea from './slides/DodavanjeWebsitea';
+import Nameserveri from './slides/Namserveri';
 
 function presentation() {
   const slides = [
@@ -28,7 +29,11 @@ function presentation() {
     {path:"threeconnections1", slide: <TCPveze/>},
     {path:"threeconnections2", slide: <ThreeConnections/>},
     {path:"postupakcloudflare", slide: <PostupakCloudflare/>},
-    {path:"dodavanjewebsitea", slide: <DodavanjeWebsitea/>}
+    {path:"dodavanjewebsitea", slide: <DodavanjeWebsitea/>},
+    {path:"nameserveri", slide: <Nameserveri/>},
+    {
+      
+    }
   ];
   const p = {
     naslovnica: <Naslovnica/>,
