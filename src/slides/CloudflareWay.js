@@ -9,6 +9,7 @@ function CloudflareWay(props){
                 <Bullet> ne zahtjeva port forwarding</Bullet>
                 <Bullet>radi iz bilo koje lokalne mreže koja ima pristup internetu</Bullet>
                 <Bullet> npr(doma,faks,kafić…)</Bullet>
+                <Bullet> automatski se dobije besplatni SSL certifikat</Bullet>
                 
             </BulletList>
         </Slide>

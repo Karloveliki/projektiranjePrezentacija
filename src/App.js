@@ -30,10 +30,8 @@ function presentation() {
     {path:"threeconnections2", slide: <ThreeConnections/>},
     {path:"postupakcloudflare", slide: <PostupakCloudflare/>},
     {path:"dodavanjewebsitea", slide: <DodavanjeWebsitea/>},
-    {path:"nameserveri", slide: <Nameserveri/>},
-    {
-      
-    }
+    {path:"nameserveri", slide: <Nameserveri/>}
+    
   ];
   const p = {
     naslovnica: <Naslovnica/>,

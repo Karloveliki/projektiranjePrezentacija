@@ -1,5 +1,5 @@
 # TODO
-* css za slideove sa bulletima
+* css za slideove sa bulletima done.
 * css za slideove sa slikama (ako  treba)
 * poseban slide layout za naslovnicu
 * posaben slide za karaj?

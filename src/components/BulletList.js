@@ -3,7 +3,7 @@ function BulletList(props){
 
 
     return(
-        <ul>
+        <ul className="w3-ul w3-xlarge">
             {props.children}
         </ul>
 
